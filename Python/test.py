@@ -1,10 +1,7 @@
 import os
-import math
 
-x = 23
-y = 21
+here = os.path.dirname(os.path.abspath(__file__))
 
-def function(x,y):
-	return x+y
-print(function())
+filename = os.path.join(here, '31-reasons.pdf')
+print(filename)
 
