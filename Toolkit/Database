@@ -1,15 +1,26 @@
 #This is a list of tools that was used during Forensics and with each tool is a quick description, review of usage, and a url if needed.
 
 1. Autopsy
-For most of the labs, I used this tool. I created cases to analyze the different parts of the local disk image. It comes with features like Timeline Analysis, Hash Filtering, File System Analsis and Keyword.
+For most of the labs, I used this tool. I created cases to analyze the different parts of the local disk image. It comes with features like Timeline Analysis, Hash Filtering, File System Analsis and Keyword. I loved this tool, very simple to use for how much information was involved with the lab. Easy to navigate and can be quickly and easily learned.
 https://www.sleuthkit.org/autopsy/
 
 2. WinPrefetch
+A light gui that is used to analyze quickly Windows Prefetch information and showing when the executable was first run and and other times it was run afterwards on the system. I used this tool mostly in the Memory Analysis lab, I found an executable file running Powershell that harbored a Empire Rootkit. I would recommend this tool to a beginning forensic investigator when looking for anything malicious. 
+ 
+3. FTK Imager
+This is a forensics piece of software that scans a hard drive looking for different kinds of information. It has a great ability to locate deleted files, scan disks for different files containing pertinent information about how a system was breached and anything malicious uploaded to the system. This particular tool was particularly challenging to grasp. Compared to Autospy, FTK seemed scattered with tools.
 
-3. Zeek (formely Bro)
+4. Volatility
+Based on Python, Volatility is an open source software program that analyzes RAM. It supports analysis for the four main operating systems used: Linux, Windows, Mac, and Android. It also has the ability to analyze raw dumps & virtual dumps. The way this tool was used was in a lab based on Seizing information and files from a computer that had become compromised. Using this tool, RAM was captured and all different running processes. I would use this tool again.  
+https://code.google.com/p/volatility/downloads/list
 
-4. FTK Imager
+5. Wireshark
 
-5. Volatility
+6. tcpdump
 
-6. 
+7. Windows Event Viewer
+
+8. Regripper
+
+9. Flashlight
+Used for when it was cold and dark. Very Enlightening tool!  
