@@ -15,6 +15,8 @@ Based on Python, Volatility is an open source software program that analyzes RAM
 https://code.google.com/p/volatility/downloads/list
 
 5. Wireshark
+Wireshark is a protocol analyzer that includes some of the following features: live capture, offline analysis, display filters, runs on most major platforms, to name a few. For the lab, wireshark was used to see the traffic going from the virtual keyboard(breach) to the comprosmised machine. The powershell script run through the virtual keyboard was found using wireshark. For a lab this big, and over 10 million packets within the analysis that took up almost 16Gs of RAM to run. I would advise on using Wireshark sparatically.
+https://www.wireshark.org/
 
 6. tcpdump
 
