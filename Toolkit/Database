@@ -1,0 +1,15 @@
+#This is a list of tools that was used during Forensics and with each tool is a quick description, review of usage, and a url if needed.
+
+1. Autopsy
+For most of the labs, I used this tool. I created cases to analyze the different parts of the local disk image. It comes with features like Timeline Analysis, Hash Filtering, File System Analsis and Keyword.
+https://www.sleuthkit.org/autopsy/
+
+2. WinPrefetch
+
+3. Zeek (formely Bro)
+
+4. FTK Imager
+
+5. Volatility
+
+6. 

@@ -1,5 +1,5 @@
 #Script to make a pdf document into a text file and pull then have a number count of how many times a word appears in the text
-
+#ATTENTION PyPDF2 does not work with ADOBE READER
 import PyPDF2
 
 pdfName = '/Users/dmespiritu/git/Projects/Python/31-reasons.pdf'
