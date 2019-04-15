@@ -19,10 +19,13 @@ Wireshark is a protocol analyzer that includes some of the following features: l
 https://www.wireshark.org/
 
 6. tcpdump
+Tcpdump is a common packet analyzer that's run totally on command line. Shows the user the TCP/IP packets  being transmitted and received over the network that the computer is connected to. I'd rather use wireshark, but on the fly this one is useful.
 
 7. Windows Event Viewer
+Shows systems messages and log of applications like errors, information messages and warnings. Very helpful for troubleshooting or in this case, digital forensics. I was able to use this to see the different events for the Analysis lab, using this tool the Empire Rootkit was found running on a powershell command. I would recommend it.
 
 8. Regripper
+Regripper is the open source forensic tool which enables one to obtain the Windows Registry keys. Using this tool I was able to find the virtual keyboard that the hacker used to issue commands over the network to the infected machine. If you look up the commands and read the instructions the Regripper is easy to use. 
 
 9. Flashlight
 Used for when it was cold and dark. Very Enlightening tool!  
